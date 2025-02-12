@@ -1,4 +1,4 @@
-import pandas as pd
+~import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -39,7 +39,7 @@ example_slot = predict_delivery_slot(day_of_week=2, previous_slot=1, urgency=2, 
 print(f"Predicted Best Delivery Slot: {example_slot}")
 
 from google.colab import drive
-drive.mount('/content/drive')
+drive.mount('/content/drive')~
 
 output:
 Model Accuracy: 0.20
